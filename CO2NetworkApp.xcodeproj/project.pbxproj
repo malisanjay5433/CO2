@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B193A902BEB7CF200C47C26 /* CO2NetworkAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B193A8F2BEB7CF200C47C26 /* CO2NetworkAppApp.swift */; };
+		9B193A922BEB7CF200C47C26 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B193A912BEB7CF200C47C26 /* HomeView.swift */; };
+		9B193A942BEB7CF400C47C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B193A932BEB7CF400C47C26 /* Assets.xcassets */; };
+		9B193A982BEB7CF400C47C26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B193A972BEB7CF400C47C26 /* Preview Assets.xcassets */; };
+		9B193AA22BEBF5D000C47C26 /* FlightDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B193AA12BEBF5D000C47C26 /* FlightDetails.swift */; };
+		9B193AA42BEBF5EC00C47C26 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B193AA32BEBF5EC00C47C26 /* CardView.swift */; };
+		9B193AA72BEBF61200C47C26 /* PaymentOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B193AA62BEBF61200C47C26 /* PaymentOption.swift */; };
+		9B193AAE2BEBF6A900C47C26 /* PaymentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B193AAD2BEBF6A900C47C26 /* PaymentDetailView.swift */; };
+		9BBBADBE2BECF65E008F6B26 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBADBD2BECF65E008F6B26 /* TopView.swift */; };
+		9BBBADC02BECF675008F6B26 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBADBF2BECF675008F6B26 /* BottomView.swift */; };
+		9BBBADC32BECF69A008F6B26 /* EmptyStateForSecurePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBADC22BECF69A008F6B26 /* EmptyStateForSecurePayment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B193A8C2BEB7CF200C47C26 /* CO2NetworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CO2NetworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B193A8F2BEB7CF200C47C26 /* CO2NetworkAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CO2NetworkAppApp.swift; sourceTree = "<group>"; };
+		9B193A912BEB7CF200C47C26 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9B193A932BEB7CF400C47C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B193A952BEB7CF400C47C26 /* CO2NetworkApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CO2NetworkApp.entitlements; sourceTree = "<group>"; };
+		9B193A972BEB7CF400C47C26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B193AA12BEBF5D000C47C26 /* FlightDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetails.swift; sourceTree = "<group>"; };
+		9B193AA32BEBF5EC00C47C26 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9B193AA62BEBF61200C47C26 /* PaymentOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOption.swift; sourceTree = "<group>"; };
+		9B193AAD2BEBF6A900C47C26 /* PaymentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailView.swift; sourceTree = "<group>"; };
+		9BBBADBD2BECF65E008F6B26 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		9BBBADBF2BECF675008F6B26 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		9BBBADC22BECF69A008F6B26 /* EmptyStateForSecurePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateForSecurePayment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B193A892BEB7CF200C47C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B193A832BEB7CF200C47C26 = {
+			isa = PBXGroup;
+			children = (
+				9B193A8E2BEB7CF200C47C26 /* CO2NetworkApp */,
+				9B193A8D2BEB7CF200C47C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B193A8D2BEB7CF200C47C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B193A8C2BEB7CF200C47C26 /* CO2NetworkApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B193A8E2BEB7CF200C47C26 /* CO2NetworkApp */ = {
+			isa = PBXGroup;
+			children = (
+				9B193A8F2BEB7CF200C47C26 /* CO2NetworkAppApp.swift */,
+				9B193AAA2BEBF64D00C47C26 /* Code */,
+				9B193A932BEB7CF400C47C26 /* Assets.xcassets */,
+				9B193A952BEB7CF400C47C26 /* CO2NetworkApp.entitlements */,
+				9B193A962BEB7CF400C47C26 /* Preview Content */,
+			);
+			path = CO2NetworkApp;
+			sourceTree = "<group>";
+		};
+		9B193A962BEB7CF400C47C26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B193A972BEB7CF400C47C26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B193AA02BEBF5BF00C47C26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B193A912BEB7CF200C47C26 /* HomeView.swift */,
+				9B193AA12BEBF5D000C47C26 /* FlightDetails.swift */,
+				9B193AA32BEBF5EC00C47C26 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B193AA52BEBF60B00C47C26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B193AA62BEBF61200C47C26 /* PaymentOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B193AA82BEBF62200C47C26 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9BBBADC12BECF68C008F6B26 /* EmptyState */,
+				9B193AAC2BEBF69700C47C26 /* PaymentDetails */,
+				9B193AA92BEBF64000C47C26 /* Payment */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9B193AA92BEBF64000C47C26 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				9B193AA52BEBF60B00C47C26 /* Model */,
+				9B193AA02BEBF5BF00C47C26 /* Views */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		9B193AAA2BEBF64D00C47C26 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				9B193AA82BEBF62200C47C26 /* Modules */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		9B193AAC2BEBF69700C47C26 /* PaymentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9B193AAF2BEBF6CA00C47C26 /* Views */,
+			);
+			path = PaymentDetails;
+			sourceTree = "<group>";
+		};
+		9B193AAF2BEBF6CA00C47C26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B193AAD2BEBF6A900C47C26 /* PaymentDetailView.swift */,
+				9BBBADBD2BECF65E008F6B26 /* TopView.swift */,
+				9BBBADBF2BECF675008F6B26 /* BottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BBBADC12BECF68C008F6B26 /* EmptyState */ = {
+			isa = PBXGroup;
+			children = (
+				9BBBADC22BECF69A008F6B26 /* EmptyStateForSecurePayment.swift */,
+			);
+			path = EmptyState;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B193A8B2BEB7CF200C47C26 /* CO2NetworkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B193A9B2BEB7CF400C47C26 /* Build configuration list for PBXNativeTarget "CO2NetworkApp" */;
+			buildPhases = (
+				9B193A882BEB7CF200C47C26 /* Sources */,
+				9B193A892BEB7CF200C47C26 /* Frameworks */,
+				9B193A8A2BEB7CF200C47C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CO2NetworkApp;
+			productName = CO2NetworkApp;
+			productReference = 9B193A8C2BEB7CF200C47C26 /* CO2NetworkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B193A842BEB7CF200C47C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9B193A8B2BEB7CF200C47C26 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 9B193A872BEB7CF200C47C26 /* Build configuration list for PBXProject "CO2NetworkApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B193A832BEB7CF200C47C26;
+			productRefGroup = 9B193A8D2BEB7CF200C47C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B193A8B2BEB7CF200C47C26 /* CO2NetworkApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B193A8A2BEB7CF200C47C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B193A982BEB7CF400C47C26 /* Preview Assets.xcassets in Resources */,
+				9B193A942BEB7CF400C47C26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B193A882BEB7CF200C47C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B193AA72BEBF61200C47C26 /* PaymentOption.swift in Sources */,
+				9B193A922BEB7CF200C47C26 /* HomeView.swift in Sources */,
+				9BBBADBE2BECF65E008F6B26 /* TopView.swift in Sources */,
+				9B193AA42BEBF5EC00C47C26 /* CardView.swift in Sources */,
+				9B193AAE2BEBF6A900C47C26 /* PaymentDetailView.swift in Sources */,
+				9BBBADC02BECF675008F6B26 /* BottomView.swift in Sources */,
+				9B193AA22BEBF5D000C47C26 /* FlightDetails.swift in Sources */,
+				9BBBADC32BECF69A008F6B26 /* EmptyStateForSecurePayment.swift in Sources */,
+				9B193A902BEB7CF200C47C26 /* CO2NetworkAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B193A992BEB7CF400C47C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B193A9A2BEB7CF400C47C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9B193A9C2BEB7CF400C47C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CO2NetworkApp/CO2NetworkApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CO2NetworkApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rayamali.CO2NetworkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B193A9D2BEB7CF400C47C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CO2NetworkApp/CO2NetworkApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CO2NetworkApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rayamali.CO2NetworkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B193A872BEB7CF200C47C26 /* Build configuration list for PBXProject "CO2NetworkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B193A992BEB7CF400C47C26 /* Debug */,
+				9B193A9A2BEB7CF400C47C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B193A9B2BEB7CF400C47C26 /* Build configuration list for PBXNativeTarget "CO2NetworkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B193A9C2BEB7CF400C47C26 /* Debug */,
+				9B193A9D2BEB7CF400C47C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B193A842BEB7CF200C47C26 /* Project object */;
+}
